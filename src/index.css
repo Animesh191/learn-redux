@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+
+.row{
+    margin-left:32%;
+}
+.heading{
+    color:greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: purple;
+}

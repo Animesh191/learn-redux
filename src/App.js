@@ -2,7 +2,8 @@ import { fetch_Users,get_User} from "./actions/index";
 import { useDispatch,useSelector } from "react-redux";
 import {useEffect,useState} from 'react';
 import Card from './Card';
-
+import Heading from "./Heading";
+import "./index.css"
 function App() {
   const dispatch=useDispatch();
   var data=[];
@@ -21,7 +22,8 @@ function App() {
 
   return (
       <>
-      <Card></Card>
+      <Heading/>
+      <Card class="animesh"></Card>
 
       { data.length ? data.map(user=>{return(<>
       <button style={{width:50,height:50,margin:10}} key={user.id} name={user.id} onClick={(e)=>{handleClick(e)}}>{user.id}</button>
