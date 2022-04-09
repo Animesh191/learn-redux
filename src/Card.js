@@ -2,7 +2,7 @@ import {useSelector} from 'react-redux';
 
 const Card=()=>{
     const data=useSelector(state=>state.getCurUser);
-    console.log(data);
+    // console.log(data);
     
     return(
     <>
